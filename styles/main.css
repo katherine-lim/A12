@@ -6,7 +6,7 @@ html{
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-	width: 600px;
+	width: 800px;
 	margin-top: 0;
 	margin-bottom: 0;
 	margin-right: auto;
@@ -39,54 +39,68 @@ h3 {
 	text-shadow: 1px 1px #800000;
 }
 /* the styles for the section */
+section {
+	width: 525px;
+	float: right;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+aside {
+	width: 215px;
+	float: right;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
 main {
 	clear: left;
-	padding-left: 30px;
-	padding-right: 30px;
 }
-main h1 {
-	font-size: 150%;
-	background-color: white;
-	border: 3px solid #931420;
-	border-radius: 5px;
-	padding-top: .3em;
-	padding-bottom: .3em;
-	padding-left: 1em;
-	box-shadow: 4px 4px black;
-}
-main h2 {
+
+section h2 {
 	font-size: 130%;
 	color: #800000;
 	padding-top: .5em;
 	padding-bottom: .25em;
 }
-main h3 {
+aside h2 {
+	font-size: 130%;
+	color: #800000;
+	padding-top: .5em;
+	padding-bottom: .25em;
+}
+h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
 }
-main a:hover {
+
+aside h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+
+aside a:hover {
 	font-style: italic;
 }
 
-main img {
+aside img {
 	padding-bottom: 1em;
 }
 
-main p {
+section p {
 	padding-bottom: .5em;
 }
 
-main blockquote {
+section blockquote {
 	padding-right: 2em;
 	padding-left: 2em;
 	font-style: italic;
 }
-main ul {
+section ul {
 	padding-bottom: .25em;
 	padding-left: 1.25em;
 }
 
-main li {
+section li {
 	padding-bottom: .35em;
 }
 /* the styles for the footer */
@@ -94,6 +108,7 @@ footer {
 	background-color: #931420;
 }
 footer p {
+	float: none;
 	text-align: center;
 	color: white;
 	padding-top: 1em;
